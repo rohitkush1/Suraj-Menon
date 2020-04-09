@@ -1,0 +1,21 @@
+#assigning elements to lists
+list1= [ 1,2,3,4,5]
+
+
+
+#accessing elements from a tuple
+tuple1= ("hey","hi","wyd")
+#accessing the second element from the tuple
+print(tuple1[1])
+
+
+
+#deleting different dictionary elements
+diction1={
+    "Hey":21,
+    "Hi":22,
+    "Wyd":23
+    }
+#deleting the second element
+diction1.pop("Hi")
+print(diction1)
